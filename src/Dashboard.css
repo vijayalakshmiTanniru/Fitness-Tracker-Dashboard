@@ -1,0 +1,40 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 16px;
+}
+
+.headerToolbar {
+  display: flex;
+  gap: 16px;
+}
+
+.statCard {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.chartWrapper {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 16px;
+}
+
+.logTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.logTable th,
+.logTable td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  .headerToolbar {
+    flex-direction: column;
+  }
+}
